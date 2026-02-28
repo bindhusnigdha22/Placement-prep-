@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Webpage</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #4CAF50; color: white; padding: 20px; text-align: center; }
+        nav { background: #333; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        main { padding: 20px; }
+        .company { border: 1px solid #ccc; padding: 15px; margin: 10px 0; }
+        footer { background: #f1f1f1; text-align: center; padding: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Placement Portal</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#companies">Companies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="companies">
+            <h2>Participating Companies</h2>
+            <div class="company">
+                <h3>Company A</h3>
+                <p>Location: New York</p>
+                <p>Positions: Software Engineer, Data Analyst</p>
+            </div>
+            <div class="company">
+                <h3>Company B</h3>
+                <p>Location: San Francisco</p>
+                <p>Positions: Web Developer, Product Manager</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: placements@example.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Placement Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
